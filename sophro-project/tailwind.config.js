@@ -5,6 +5,7 @@ export default {
     extend: {
       colors: {
         purpleBackground: "rgb(226,179,246)",
+        green: "#3a5433",
       },
     },
   },
