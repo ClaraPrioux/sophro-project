@@ -27,7 +27,7 @@ const Layout: React.FC<{ children: React.ReactNode }> = ({ children }) => {
               <path d="m12 5.432 8.159 8.159c.03.03.06.058.091.086v6.198c0 1.035-.84 1.875-1.875 1.875H15a.75.75 0 0 1-.75-.75v-4.5a.75.75 0 0 0-.75-.75h-3a.75.75 0 0 0-.75.75V21a.75.75 0 0 1-.75.75H5.625a1.875 1.875 0 0 1-1.875-1.875v-6.198a2.29 2.29 0 0 0 .091-.086L12 5.432Z" />
             </svg>
             {activePath === "/" && (
-              <div className="absolute bottom-[-6px] left-1/2 transform -translate-x-1/2 w-0 h-0 border-l-[6px] border-r-[6px] border-t-[6px] border-transparent border-t-white"></div>
+              <div className="pb-16 absolute top-[-12px] left-1/2 transform -translate-x-1/2 w-0 h-0 border-l-[12px] border-r-[12px] border-b-[12px] border-transparent border-b-white"></div>
             )}
           </Link>
           <Link
@@ -48,7 +48,7 @@ const Layout: React.FC<{ children: React.ReactNode }> = ({ children }) => {
               />
             </svg>
             {activePath === "/sophrologie" && (
-              <div className="absolute bottom-[-6px] left-1/2 transform -translate-x-1/2 w-0 h-0 border-l-[6px] border-r-[6px] border-t-[6px] border-transparent border-t-white"></div>
+              <div className="pb-16 absolute top-[-12px] left-1/2 transform -translate-x-1/2 w-0 h-0 border-l-[12px] border-r-[12px] border-b-[12px] border-transparent border-b-white"></div>
             )}
           </Link>
           <Link
@@ -68,7 +68,7 @@ const Layout: React.FC<{ children: React.ReactNode }> = ({ children }) => {
               />
             </svg>
             {activePath === "/moi" && (
-              <div className="absolute bottom-[-6px] left-1/2 transform -translate-x-1/2 w-0 h-0 border-l-[6px] border-r-[6px] border-t-[6px] border-transparent border-t-white"></div>
+              <div className="pb-16 absolute top-[-12px] left-1/2 transform -translate-x-1/2 w-0 h-0 border-l-[12px] border-r-[12px] border-b-[12px] border-transparent border-b-white"></div>
             )}
           </Link>
           <Link
@@ -89,7 +89,7 @@ const Layout: React.FC<{ children: React.ReactNode }> = ({ children }) => {
               />
             </svg>
             {activePath === "/tarifs" && (
-              <div className="absolute bottom-[-6px] left-1/2 transform -translate-x-1/2 w-0 h-0 border-l-[6px] border-r-[6px] border-t-[6px] border-transparent border-t-white"></div>
+              <div className="pb-16 absolute top-[-12px] left-1/2 transform -translate-x-1/2 w-0 h-0 border-l-[12px] border-r-[12px] border-b-[12px] border-transparent border-b-white"></div>
             )}
           </Link>
           <Link
@@ -106,13 +106,13 @@ const Layout: React.FC<{ children: React.ReactNode }> = ({ children }) => {
               <path d="M22.5 6.908V6.75a3 3 0 0 0-3-3h-15a3 3 0 0 0-3 3v.158l9.714 5.978a1.5 1.5 0 0 0 1.572 0L22.5 6.908Z" />
             </svg>
             {activePath === "/contact" && (
-              <div className="absolute bottom-[-6px] left-1/2 transform -translate-x-1/2 w-0 h-0 border-l-[6px] border-r-[6px] border-t-[6px] border-transparent border-t-white"></div>
+              <div className="pb-16 absolute top-[-12px] left-1/2 transform -translate-x-1/2 w-0 h-0 border-l-[12px] border-r-[12px] border-b-[12px] border-transparent border-b-white"></div>
             )}
           </Link>
         </nav>
       </header>
 
-      <main className="flex-grow container mx-auto">{children}</main>
+      <main className="flex-grow container mx-auto m-10 mt-0">{children}</main>
 
       <footer className="text-white p-4 text-center">
         <p>&copy; 2024 Sophro Project. Tous droits réservés.</p>

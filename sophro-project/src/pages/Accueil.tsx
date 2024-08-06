@@ -2,7 +2,7 @@ import arbre from "../assets/arbre.png";
 
 const Accueil = () => {
   return (
-    <div className="bg-white flex flex-col md:flex-row justify-between items-center">
+    <div className="bg-white flex flex-col md:flex-row justify-between items-center m-4 mt-0 md:m-12 md:mt-0">
       <div className="flex flex-col m-8 md:pl-4">
         <h1 className="text-4xl pb-6 text-green text-center md:text-left">
           Rosy Prioux, Sophrologue
