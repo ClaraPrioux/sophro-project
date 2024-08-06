@@ -1,3 +1,5 @@
+import carte from "../assets/carte-mentale.png";
+
 const Sophrologie = () => {
   return (
     <div className="p-8 bg-white m-4 mt-0 md:m-12 md:mt-0">
@@ -53,7 +55,8 @@ const Sophrologie = () => {
           et sur le monde.
         </p>
       </div>
-      <p className="text-lg text-green"></p>
+      <hr className="m-16"></hr>
+      <img src={carte} alt="carte mentale"></img>
     </div>
   );
 };
