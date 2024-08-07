@@ -3,11 +3,11 @@ import carte from "../assets/carte-mentale.png";
 const Sophrologie = () => {
   return (
     <div className="p-8 bg-white m-4 mt-0 md:m-12 md:mt-0">
-      <h1 className="text-4xl text-green text-center md:text-left">
+      <h1 className="text-4xl text-green text-center mb-6 md:text-left">
         Sophrologie
       </h1>
       <div className="flex flex-col lg:flex-row justify-center">
-        <p className="text-green lg:w-2/3 text-justify mt-10 lg:mt-20">
+        <p className="text-green lg:w-2/3 text-justify">
           La sophrologie est une méthode créée en 1960 par le neuropsychiatre
           Alfonso Caycedo.
           <br />
@@ -36,7 +36,7 @@ const Sophrologie = () => {
         <img
           src="https://s3-us-west-2.amazonaws.com/utsw-patientcare-web-production/original_images/Pregnant_belly_600.jpg"
           alt="pregnant woman"
-          className="w-5/12 h-auto m-6 rounded-lg shadow-lg"
+          className="hidden md:block w-5/12 h-auto m-6 rounded-lg shadow-lg"
         />
 
         <p className="text-green lg:w-3/5 text-justify ml-4 mr-4 text-green">
