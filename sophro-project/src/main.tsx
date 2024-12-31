@@ -10,6 +10,7 @@ import Sophrologie from "./pages/Sophrologie";
 import Moi from "./pages/Moi";
 import Tarifs from "./pages/Tarifs";
 import Contact from "./pages/Contact";
+import Public from "./pages/Public";
 import Layout from "./components/Layout";
 
 const App = () => {
@@ -53,6 +54,14 @@ const App = () => {
           element={
             <Layout>
               <Contact />
+            </Layout>
+          }
+        />
+        <Route
+          path="/public"
+          element={
+            <Layout>
+              <Public />
             </Layout>
           }
         />

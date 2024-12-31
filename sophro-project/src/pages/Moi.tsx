@@ -1,8 +1,8 @@
-import photo from "../assets/photo.jpeg";
+import photo from "../assets/photo.png";
 const Moi = () => {
   return (
     <div className="p-8 bg-white m-4 mt-0 md:m-12 md:mt-0 flex flex-col">
-      <h1 className="text-4xl text-green text-center md:text-left mb-6">
+      <h1 className="text-5xl text-green text-center md:text-left mb-6 font-dancing-script">
         Qui suis-je ?
       </h1>
       <div className="flex flex-col md:flex-row md:justify-between items-center">

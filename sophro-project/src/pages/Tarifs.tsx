@@ -1,12 +1,16 @@
 const Tarifs = () => {
   return (
     <div className="p-8 bg-white m-4 mt-0 md:m-12 md:mt-0 text-green">
-      <h1 className="text-4xl text-green text-center mb-6 md:text-left">
+      <h1 className="text-5xl text-green text-center mb-6 md:text-left font-dancing-script">
         Tarifs
       </h1>
-      <p className="text-lg mb-8 italic">
-        Les séances se déroulent au cabinet, et pour les séances en groupe, je
-        peux également me déplacer dans le département (Calvados).
+      <p className="text-lg mb-8 italic text-justify">
+        Les séances individuelles ont lieu au cabinet (adresse dans la{" "}
+        <a href="/contact" className="underline">
+          page contact
+        </a>
+        ). Les séances en groupe se déroulent selon vos besoins et le lieu sera
+        défini ensemble, contactez-moi pour organiser.
       </p>
 
       <div className="bg-white shadow-md rounded-lg overflow-hidden mb-6">
@@ -24,7 +28,7 @@ const Tarifs = () => {
           </thead>
           <tbody>
             <tr>
-              <td className="text-left py-3 px-4">Adulte (1-1h30)</td>
+              <td className="text-left py-3 px-4">Adulte (1h)</td>
               <td className="text-left py-3 px-4">50€/pers</td>
             </tr>
             <tr className="bg-gray-100">
@@ -32,10 +36,8 @@ const Tarifs = () => {
               <td className="text-left py-3 px-4">35€/pers</td>
             </tr>
             <tr>
-              <td className="text-left py-3 px-4">
-                Groupe (minimum 3 personnes)
-              </td>
-              <td className="text-left py-3 px-4">20€/pers</td>
+              <td className="text-left py-3 px-4">Groupe (3-12 personnes)</td>
+              <td className="text-left py-3 px-4">15€/pers</td>
             </tr>
           </tbody>
         </table>
@@ -59,7 +61,7 @@ const Tarifs = () => {
           <tbody>
             <tr>
               <td className="text-left py-3 px-4">Trimestre (10 séances)</td>
-              <td className="text-left py-3 px-4">150€</td>
+              <td className="text-left py-3 px-4">130€</td>
             </tr>
             <tr className="bg-gray-100">
               <td className="text-left py-3 px-4">Année (30 séances)</td>
@@ -89,7 +91,8 @@ const Tarifs = () => {
           </h2>
         </div>
         <p className="">
-          Vous pouvez régler les séances en espèces, par chèque ou via PayPal.
+          Vous pouvez régler les séances en espèces, par chèque ou par carte
+          bancaire.
         </p>
       </div>
     </div>
